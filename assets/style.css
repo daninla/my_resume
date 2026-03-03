@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container{
+    margin-top: 0; 
+    padding-left: 20rem;
+    padding-right: 20rem;
+}      
+header{
+    background-color: #c4eeff;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+header .contact-info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.linkedin{
+ padding-right: 300px;
+ padding-bottom: 40px;
+}
+
+.linkedin a{
+    font-size: 16px;
+    color: #555151;
+    text-decoration: none;
+}
+
+.contacts a{
+    font-size: 16px;
+    color: #555151;
+    text-decoration: none;
+}
+
+.main-text{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 1rem;  
+}
+
